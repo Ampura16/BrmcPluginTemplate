@@ -1,0 +1,19 @@
+# 插件名称（服务器识别插件的依据,请勿随意改动）
+name: BrmcPluginTemplate
+# 插件描述（构建时由 gradle.properties 中的 description 属性注入）
+description: $description
+# 插件版本（构建时由 gradle.properties 中的 version 属性注入）
+version: '${version}'
+
+# 插件主类（继承 SimplePlugin 的入口类全限定名）
+main: top.brmc.brmcplugintemplate.BPTMain
+# Minecraft API 版本（对应 Paper 1.21.11）
+api-version: '1.21.11'
+# 加载时机：POSTWORLD 表示在世界加载完成之后再加载本插件
+load: POSTWORLD
+
+# 作者列表
+authors:
+  - Ampura16
+# 插件主页
+website: https://mcziya.com
